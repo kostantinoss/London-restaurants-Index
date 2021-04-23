@@ -152,7 +152,7 @@ if len(sys.argv) <= 1:
 else:
     args = [float(i) for i in sys.argv[1:]]
 
-input_file = open('assignment4/data/Restaurants_London_England.tsv', 'r')
+input_file = open('data/Restaurants_London_England.tsv', 'r')
 restaurants = csv.reader(input_file, delimiter='\t')
 
 x_max, x_min, y_max, y_min, restaurant_records = load_data(restaurants)
