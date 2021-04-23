@@ -1,6 +1,3 @@
-# ------------------------------ #
-# Konstantinos Chondralis  3109  #
-# ------------------------------ #
 
 import csv
 import sys
