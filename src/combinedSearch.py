@@ -228,7 +228,7 @@ else:
     range_args = [float(i) for i in sys.argv[1:5]]
 
 print(range_args, tags_args)
-input_file = open('assignment4/data/Restaurants_London_England.tsv', 'r')
+input_file = open('/data/Restaurants_London_England.tsv', 'r')
 restaurants = csv.reader(input_file, delimiter='\t')
 
 restaurant_records, inverted_tag_index, grid, x_buckets, y_buckets = load_data(restaurants)
