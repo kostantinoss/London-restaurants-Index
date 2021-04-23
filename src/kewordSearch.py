@@ -10,7 +10,7 @@ from collections import defaultdict
 tags_index = defaultdict(list)
 tags_index_count = defaultdict(int)
 records_index = defaultdict(list)
-input_file = open('assignment4/data/Restaurants_London_England.tsv', 'r')
+input_file = open('data/Restaurants_London_England.tsv', 'r')
 restaurants = csv.reader(input_file, delimiter='\t')
 
 
