@@ -1,7 +1,3 @@
-# ------------------------------ #
-# Konstantinos Chondralis  3109  #
-# ------------------------------ #
-
 import csv
 import heapq
 import sys
@@ -101,8 +97,8 @@ def load_data(restaurants):
 
         grid[i][j].append(rest_id)
     
-
     return restaurant_records, tags_index, grid, x_buckets, y_buckets
+
 
 def merge(list1, list2):
     if len(list1) < 0 or len(list2) < 0:
