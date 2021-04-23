@@ -1,8 +1,3 @@
-# ------------------------------ #
-# Konstantinos Chondralis  3109  #
-# ------------------------------ #
-
-
 import csv
 import heapq
 import sys
